@@ -1,0 +1,27 @@
+{
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@xstate/react": "0.2.0",
+    "classnames": "latest",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0",
+    "uuid-v4": "0.1.0",
+    "xstate": "4.4.0"
+  },
+  "keywords": [],
+  "name": "xstate-todomvc-with-form-status-and-dirty-clean-states",
+  "description": "The TodoMVC app implemented with React (using hooks) and XState version 4. Updated to include a status state to determine if the form is valid or invalid. Takes a previous fork and the plan is to make dirty/clean states in the machine instead of a boolean flag in context",
+  "version": "0.0.28",
+  "devDependencies": {
+    "react-scripts": "1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
